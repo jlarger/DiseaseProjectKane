@@ -9,7 +9,7 @@ def virusAdd():
     global virusList
     virus = virusCreate()
     virusList[virus.name] = virus
-    saveGame()
+    saveVirus()
     return virusList
 #used at the beginning of main() to load all viruses to program from VIRUS_FILENAME
 def loadVirus():
